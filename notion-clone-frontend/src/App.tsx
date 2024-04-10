@@ -1,14 +1,12 @@
 import './App.css'
-import { Cover } from './Page/Cover'
-// import { Spacer } from './Page/Spacer'
+import { Page } from './Page/Page'
 
 function App() {
   
 
   return (
     <>
-    <Cover />
-    {/* <Spacer /> */}
+      <Page />
     </>
   )
 }
