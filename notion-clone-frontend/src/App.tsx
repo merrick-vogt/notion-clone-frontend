@@ -1,11 +1,14 @@
 import './App.css'
+import { Cover } from './Page/Cover'
+// import { Spacer } from './Page/Spacer'
 
 function App() {
   
 
   return (
     <>
-      Notion Clone Frontend
+    <Cover />
+    {/* <Spacer /> */}
     </>
   )
 }
