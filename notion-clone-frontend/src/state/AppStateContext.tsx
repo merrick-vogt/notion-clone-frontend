@@ -12,6 +12,10 @@ type AppStateProviderProps = {
 }
 
 export const AppStateProvider = ({children, initialState}: AppStateProviderProps) => {
+    if (!initialState) {
+        throw new Error('initialState must be defined');
+    }
+
     const pageStateHandlers = usePageState(initialState);
 
     return (

@@ -15,7 +15,7 @@ export const Cover = () => {
 
   return (
     <div className={styles.cover}>
-      <img src='/public/ztm-notes.png' alt='Cover' className={styles.image}/>
+      <img src='/ztm-notes.png' alt='Cover' className={styles.image}/>
       <button className={styles.button} onClick={onChangeCoverImage}>Change Cover</button>
       <input
         onChange={onCoverImageUpload}
